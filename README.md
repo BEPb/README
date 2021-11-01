@@ -1,3 +1,13 @@
+![Profile views](https://gpvc.arturio.dev/BEPb) ![AppVeyor](https://img.shields.io/appveyor/build/BEPb/README) 
+![GitHub top language](https://img.shields.io/github/languages/top/BEPb/README) ![GitHub language count](https://img.shields.io/github/languages/count/BEPb/README)
+![David](https://img.shields.io/david/dev/BEPb/README) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/BEPb/README)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/BEPb/!%5BGitHub%20code%20size%20in%20bytes%5D(https://img.shields.io/github/languages/code-size/BEPb/README))
+![GitHub repo size](https://img.shields.io/github/repo-size/BEPb/README) ![GitHub all releases](https://img.shields.io/github/downloads/BEPb/README/total)
+![GitHub](https://img.shields.io/github/license/BEPb/README) ![GitHub last commit](https://img.shields.io/github/last-commit/BEPb/README)
+
+
+![GitHub User's stars](https://img.shields.io/github/stars/BEPb?style=social)
+
 # Все о разметке файла README.md
 
 
@@ -37,6 +47,7 @@
 6. [Ссылки](#Ссылки)
     * 6.1. Текстовая гиперссылка
     * 6.2. Ссылка изображения
+7. [Полезные ссылки](#Полезные-ссылки)
 
     
 ## Горизонтальная линия
@@ -280,3 +291,9 @@ ____
 
 [К оглавлению](#Оглавление)
 ____
+### Полезные ссылки
+
+https://shields.io/ - Если есть желание добавить шильды, например тех, что находятся в начале этого файла, то 
+переходите на сайт, выбираете шильду, вбиваете как правило имя на гихабе, имя репозитория и копируете код шильды в 
+свой readme-файл.
+
