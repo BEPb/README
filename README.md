@@ -3,6 +3,9 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/BEPb/README) ![GitHub](https://img.shields.io/github/license/BEPb/README) ![GitHub last commit](https://img.shields.io/github/last-commit/BEPb/README)
 
 ![GitHub User's stars](https://img.shields.io/github/stars/BEPb?style=social)
+<p align="left">
+<img src="https://visitor-badge.laobi.icu/badge?page_id=BEPb.README" alt="visitors"/>
+</p>
 
 # Все о разметке файла README.md
 
@@ -46,6 +49,7 @@
 7. [Полезные ссылки](#Полезные-ссылки)
     * 7.1. Шильды
     * 7.2. Эмоджи
+8. Скрытое меню
 
     
 ## Горизонтальная линия
@@ -295,3 +299,23 @@ https://shields.io/ - Если есть желание добавить шиль
 
 https://github.com/BEPb/README/blob/master/emogi.md - Если есть желание украсить свой readmi-файл эмодзи 
 :smiling_imp: ,  :innocent: то просто скопируйте код из таблицы напротив нужного.
+
+### Скрытое меню
+</b></details>
+
+<details>
+<summary>Что нужно сделать что бы получить сворачивающийся текст?</summary><br><b>
+
+Скопируйте указанный код и вставляйте свои блоки и символы
+```
+</b></details>
+<details>
+<summary> Название Вашего скрытого текста </summary><br><b>
+
+Здесь размещается Вашт скрытый текст
+</b></details>
+
+```
+ 
+
+</b></details>
