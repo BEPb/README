@@ -51,7 +51,7 @@ in lowercase letters, conveniently placing README before the rest of the content
 7. [Useful links](#Useful-links)
     * 7.1. Shields
     * 7.2. Emoji
-8. [Hidden menu](#Hidden_menu)
+8. [Hidden menu](#Hidden-menu)
 
     
 ## Horizontal line
