@@ -6,313 +6,314 @@
 <p align="left">
 <img src="https://visitor-badge.laobi.icu/badge?page_id=BEPb.README" alt="visitors"/>
 </p>
+Read in other languages: [English](README.md), [हिन्दी](README.hindi.md), [中國人](README.chinese.md)
 
-# Все о разметке файла README.md
-
-
-## Откуда появился термин «README»? (Этимология)
-
-Важную информацию, которую пользователь должен прочитать, прежде чем продолжить, описания проектов на GitHub на языке 
-разметки markdown размещают в файле «README.md»
-
-Этот термин появился как минимум к 1970-м годам, к тем временам, когда информационные бумажные заметки помещались на стопки
-перфокарт. «ПРОЧИТАЙТЕ МЕНЯ!» нацарапал на них, описывая их использование. Возможно название README 
-может быть шутливым подталкиванием к «Приключениям Алисы в стране чудес» Льюиса Кэрролла, где есть зелье и торт с 
-надписью «ВЫПЕЙ МЕНЯ» и «СЪЕШЬ МЕНЯ» соответственно.
-
-Образец README, отображаемый заглавными буквами, является неизменным аспектом на протяжении всей истории. 
-В дополнение к визуальной выразительности использования заглавных букв, системы UNIX сортируют заглавные буквы перед
-строчными буквами, удобно помещая README перед остальным содержимым каталога.
+# All about README.md file markup
 
 
+## Where did the term "README" come from? (Etymology)
 
-## Оглавление
+Important information that the user should read before continuing, project descriptions on GitHub in the language
+markdown markup is placed in the file "README.md"
 
-1. [Горизонтальная линия](#Горизонтальная-линия)
-2. [Заголовок](#Заголовок)
-3. [Текст](#Текст)
-   * 3.1. Обычный текст
-   * 3.2. Одна строка текста
-   * 3.3. Многострочный текст
-   * 3.4. Выделение текста
-   * 3.5. Перенос строк
-   * 3.6. Курсив
-   * 3.7. Жирный
-   * 3.8. Зачеркнутый
-4. [Вставка таблиц](#Вставка-таблиц)
-5. [Списки](#Списки)
-    * 5.1. Маркированный
-    * 5.2. Нумерованный
-6. [Ссылки](#Ссылки)
-    * 6.1. Текстовая гиперссылка
-    * 6.2. Ссылка изображения
-7. [Полезные ссылки](#Полезные-ссылки)
-    * 7.1. Шильды
-    * 7.2. Эмоджи
-8. [Скрытое меню](#Скрытое_меню)
+The term dates back to at least the 1970s, the time when informational paper notes were placed on stacks.
+punched cards "READ ME!" scribbled on them describing their use. Possibly titled README
+could be a playful nudge to Lewis Carroll's Alice's Adventures in Wonderland, which has a potion and cake with
+labeled "DRINK ME" and "EAT ME" respectively.
+
+The README pattern displayed in capital letters is a consistent aspect throughout history.
+In addition to the visual expressiveness of using capital letters, UNIX systems sort capital letters before
+in lowercase letters, conveniently placing README before the rest of the contents of the directory.
+
+
+
+## Table of contents
+
+1. [Horizontal-line](#Horizontal-line)
+2. [Title](#Title)
+3. [Text](#Text)
+   * 3.1. plain text
+   * 3.2. One line of text
+   * 3.3. Multiline text
+   * 3.4. Text selection
+   * 3.5. Line wrapping
+   * 3.6. Italics
+   * 3.7. Fatty
+   * 3.8. Strikethrough
+4. [Insert tables](#Insert-tables)
+5. [Lists](#Lists)
+    * 5.1. Marked
+    * 5.2. Numbered
+6. [Links](#Links)
+    * 6.1. Text hyperlink
+    * 6.2. Image link
+7. [Useful links](#Useful-links)
+    * 7.1. Shields
+    * 7.2. Emoji
+8. [Hidden menu](#Hidden_menu)
 
     
-## Горизонтальная линия
+## Horizontal line
 
-Горизонтальную линию (разделительную черту) можно получить тремя способами:
-* *** (используя три подряд символа '*' (звездочка))、
+A horizontal line (separating line) can be obtained in three ways:
+* *** (using three consecutive '*' (asterisk))、
 ***
-* --- (используя три подряд символа '-' (тире))、
+* --- (using three consecutive '-' (dash))、
 ---
-* ___ (используя три подряд символа '_' (подчеркивание))
+* ___ (using three consecutive '_' characters (underscore))
 ___
 
-все они отображают эффект горизонтальной линии
+they all display the horizontal line effect
 ____
 
-[К оглавлению](#Оглавление)
+[Back to Table of Contents](# Table of Contents)
 ____
-## Заголовок
+## Title
 
-Размер заголовка (шрифта) может быть 6-ти уровней, он зависит от количества символов `#` (решетки) в начале строки.
+The heading (font) size can be 6 levels, it depends on the number of `#` (pound) characters at the beginning of the line.
 
 
 ```
-# Заголовок первого уровня
-## Заголовок второго уровня
-### Заголовок третьего уровня
-#### Заголовок четвертого уровня
-##### Заголовок пятого уровня
-###### Заголовок шестого уровня
+# First level heading
+## Heading of the second level
+### Third level heading
+#### Fourth level heading
+##### Level 5 heading
+###### Level 6 heading
 ```
 
-# Заголовок первого уровня
-## Заголовок второго уровня
-### Заголовок третьего уровня
-#### Заголовок четвертого уровня
-##### Заголовок пятого уровня
-###### Заголовок шестого уровня
+# First level heading
+## Heading of the second level
+### Third level heading
+#### Fourth level heading
+##### Level 5 heading
+###### Level 6 heading
 
-Заголовок 1 (еще один способ)
+Heading 1 (another way)
 =
-Заголовок первого уровня также можно создать при помощи одного или нескольких символов '=' размещенного на 
-следующей за оглавлением строке:
+A first level heading can also be created with one or more '=' characters placed on
+line following the title:
 
 ```
-Заголовок 1
+Heading 1
 =
 ```
 
-Заголовок 2 (еще один способ)
+Heading 2 (another way)
 -
-Заголовок второго уровня также можно создать при помощи одного или нескольких символов '-' размещенного на 
-следующей за оглавлением строке:
+A second level heading can also be created with one or more '-' characters placed on
+line following the title:
 
 ```
-Заголовок 2
+Heading 2
 -
 ```
 
-[К оглавлению](#Оглавление)
+[Back to Table of Contents](# Table of Contents)
 ____
 
-## Текст
-### 3.1. Обычный текст
-Здесь отображен обычны текст, без каких либо манипуляций.
+## Text
+### 3.1. plain text
+Here the usual text is displayed, without any manipulations.
 
 
-[К оглавлению](#Оглавление)
+[Back to Table of Contents](# Table of Contents)
 ____
-### 3.2. Одна строка текста
-    текст в одну строку
+### 3.2. One line of text
+    text on one line
 
-Добавьте 4 пробела в начале строки и Ваш текст будет выделен в отдельном окне, как на примере. Иногда срабатывает по 
-знаку табуляции, но не всегда.... т.к. знак табуляции иногда отступает на 3 или иное количество пробелов.
+Add 4 spaces at the beginning of the line and your text will be highlighted in a separate window, as in the example. Sometimes it works on
+tab, but not always.... the tab character is sometimes indented by 3 or more spaces.
 
 
-[К оглавлению](#Оглавление)
+[Back to Table of Contents](# Table of Contents)
 ____
-### 3.3. Многострочный текст
-    ВОТ ЗДЕСЬ ЛЕЖИТ БОЛЬШОЙ СТУДЕНТ;
-    ЕГО СУДЬБА НЕУМОЛИМА.
-    НЕСИТЕ ПРОЧЬ МЕДИКАМЕНТ:
-    БОЛЕЗНЬ ЛЮБВИ НЕИЗЛЕЧИМА!
+### 3.3. Multiline text
+    HERE LIES A BIG STUDENT;
+    HIS FATE IS NEGOTIABLE.
+    CARRY AWAY MEDICINE:
+    THE ILLNESS OF LOVE IS INCURED!
 
-Добавьте 4 пробела в начале каждой строки и Ваш текст будет выделен в отдельном окне, как на примере. 
+Add 4 spaces at the beginning of each line and your text will be highlighted in a separate window, as in the example.
 
-[К оглавлению](#Оглавление)
+[Back to Table of Contents](# Table of Contents)
 ____
-### 3.4. Выделение текста
-Выше приведенные примеры не смогут сохранить отсупы сложного текста в каждой строке, для этих целей используйте в 
-три обратные ковычки "```", при этом они должны находится на отдельных строках перед текстом и после, соответственно.
+### 3.4. Text selection
+The above examples will not be able to keep the indentation of complex text on each line, for this purpose use in
+three backticks "```", and they must be on separate lines before and after the text, respectively.
 
 ```
-"Стремитесь не к успеху, а к ценностям, которые он дает."
-                                          Альберт Эйнштейн
+"Strive not for success, but for the values ​​that it gives."
+                                          Albert Einstein
 ```
-Если Вы используете только пару обратных кавычек, то Ваш текст будет выделен, но без сохранения отступов. Так же 
-можно выделять отдельные слова в тексте.
+If you only use a pair of backticks, then your text will be highlighted, but not indented. Same way
+you can highlight individual words in the text.
 
 ``
-Жизнь - это то, что с тобой происходит, пока ты строишь планы.                                                      
-                                                      Джон Леннон
+Life is what happens to you while you are making plans.
+                                                      John Lennon
 ``
 
-``Логика`` может привести Вас от пункта А к пункту Б, а ``воображение`` — куда угодно. (Альберт Эйнштейн)
+``Logic`` can take you from point A to point B, and ``imagination`` can take you anywhere. (Albert Einstein)
 
-Но это не все, часто мы испытываем необходимость поместить фрагменты кода, желательно не только сохранить отступы, 
-но и выдилить цветом, для этого нужно после первых трех кавычек указать язык программирования 
+But that's not all, often we feel the need to place code fragments, it is desirable not only to keep indents,
+but also highlight with color, for this you need to specify the programming language after the first three quotes
 ```python
 from django.contrib import admin
-# настройка админки
+# admin settings
 # Register your models here.
 
 from .models import Phonenumber, Division, MilitaryUnit
 
 
-class PhonenumberAdmin(admin.ModelAdmin):  # описываем раздел админки "Справочник"
-    # указываем отображаемые поля
+class PhonenumberAdmin(admin.ModelAdmin): # describe the Directory section of the admin panel
+    # specify the displayed fields
     list_display = (
         'id',
-        'military_unit',  # указываем воинскую часть из таблицы MilitaryUnit
-        'division',  # указываем подразделение из таблицы Division
+        'military_unit', # specify the military unit from the MilitaryUnit table
+        'division', # specify the division from the Division table
         'subdivision',
     )
 ```
 ____
 
-[К оглавлению](#Оглавление)
+[Back to Table of Contents](# Table of Contents)
 ____
-### 3.5. Перенос строк
-Возможно это не обычно и не привычно, но при нажатии кнопки "Enter", Ваш текст по прежне будет отображаться в одну 
-строку, а для того что бы Ваш перенос заработал, необходимо в конце строки добавить два пробела
+### 3.5. Line wrapping
+Perhaps this is not usual and not familiar, but when you press the "Enter" button, your text will still be displayed in one
+line, and in order for your transfer to work, you need to add two spaces at the end of the line
 
-Или просто добавьте пустую строку, т.е. нажмите "Enter" 2 раза. В этом случае эффект переноса будет достигнут, но 
-междустрочный интервал будет больше. 
+Or just add an empty string, i.e. press "Enter" 2 times. In this case, the transfer effect will be achieved, but
+line spacing will be larger.
 
-[К оглавлению](#Оглавление)
+[Back to Table of Contents](# Table of Contents)
 ____
-### 3.6. Курсив
-Поместите текст между двумя символами '*' (звездочки) или '_' (подчеркивания) и он превратится в  
-*НАКЛОННЫЙ ТЕКСТ* или _НАКЛОННЫЙ ТЕКСТ_
+### 3.6. Italics
+Place text between two characters '*' (asterisks) or '_' (underscores) and it will turn into
+*italic text* or _italic text_
 ```
-*НАКЛОННЫЙ ТЕКСТ* или _НАКЛОННЫЙ ТЕКСТ_
+*italic text* or _italic text_
 ```
-[К оглавлению](#Оглавление)
+[Back to Table of Contents](# Table of Contents)
 ____
-### 3.7. Жирный
-Поместите текст между двумя двойными символами '*' (звездочки) или '_' (подчеркивания) и он превратится в  
-__ЖИРНЫЙ ТЕКСТ__ или **ЖИРНЫЙ ТЕКСТ**
+### 3.7. Fatty
+Place text between two double '*' (asterisks) or '_' (underscore) characters and it will turn into
+__bold text__ or **bold text**
 ```
-__ЖИРНЫЙ ТЕКСТ__ или **ЖИРНЫЙ ТЕКСТ**
+__bold text__ or **bold text**
 ```
-Текст между тремя символами '*' (звездочки) или '_' (подчеркивания) превращают его в жирный наклонный текст:  
-___Жирный наклонный текст___  или ***Жирный наклонный текст***
+Text between three characters '*' (asterisks) or '_' (underscores) turns it into bold italic text:
+___Bold Italic___ or ***Bold Italic***
 ```
-___Жирный наклонный текст___  или ***Жирный наклонный текст***
-```
-
-[К оглавлению](#Оглавление)
-____
-### 3.8. Зачеркнутый
-Поместите текст между двумя двойными символами '~' и он превратится в
-~~ЗАЧЕРКНУТЫЙ ТЕКСТ~~
-```
-~~ЗАЧЕРКНУТЫЙ ТЕКСТ~~
+___Bold Italic___ or ***Bold Italic***
 ```
 
-[К оглавлению](#Оглавление)
+[Back to Table of Contents](# Table of Contents)
 ____
-## Вставка таблиц
-
-Простая таблица
+### 3.8. Strikethrough
+Place text between two double '~' characters and it will turn into
+~~Strikethrough TEXT~~
 ```
-|Автор|Андрей Маринченко|
+~~Strikethrough TEXT~~
+```
+
+[Back to Table of Contents](# Table of Contents)
+____
+## Insert tables
+
+simple table
+```
+|Author|Andrey Marinchenko|
 |---|---|
-|Профессия| Python-developer|
-|Статья| О разметке файла README|
+|Profession| python-developer|
+|Article| About markup in the README|
 ```
-|Автор|Андрей Маринченко|
+|Author|Andrey Marinchenko|
 |---|---|
-|Профессия| Python-developer|
-|Статья| О разметке файла README|
+|Profession| python-developer|
+|Article| About markup in the README|
 
-[К оглавлению](#Оглавление)
+[Back to Table of Contents](# Table of Contents)
 ____
 
-## Списки
-### 5.1. Маркированный
-Маркированный список образуется символами -, + или * с которых начинается каждая новая строка списка
-- первый
-- второй
-- третий
-### 5.2. Нумерованный
-Нумерованный список создается как обычная нумерация строк, 
-1. первый  
-1.1. первый подпункт  
-1.2. второй подпункт  
-1.3. третий подпункт
-2. второй  
-3. третий   
-4. четвертый
+## Lists
+### 5.1. Marked
+A bulleted list is formed by the characters -, + or * that begin each new line of the list
+- first
+- second
+- the third
+### 5.2. Numbered
+The numbered list is created like regular line numbering,
+1. first
+1.1. first subparagraph
+1.2. second subparagraph
+1.3. third subparagraph
+2. second
+3. third
+4. fourth
 
-[К оглавлению](#Оглавление)
+[Back to Table of Contents](# Table of Contents)
 ____
-## Ссылки
-## 6.1. Текстовая гиперссылка
-##  Ссылка на внешний URL
-Можно просто добавить ссылку из браузера https://github.com/BEPb, и она будет работать, но если мы хотим скрыть ее 
-за текстом то ссылку необходимо поместить в круглые скобки, а текст в квадратные сразу перед ссылкой
+## Links
+## 6.1. Text hyperlink
+## Link to external URL
+We can just add a link from the browser https://github.com/BEPb and it will work, but if we want to hide it
+after the text, the link must be placed in parentheses, and the text in square brackets immediately before the link
 ```
-Жми сюда ---> [тыц](https://github.com/BEPb)
+Click here ---> [tyts](https://github.com/BEPb)
 ```
-Жми сюда ---> [тыц](https://github.com/BEPb)
+Click here ---> [tyts](https://github.com/BEPb)
     
-##  Ссылка на текст внутри README.md
-Если мы формируем ссылку внутри файла README.md, то следует помнить, что сослаться мы может на только заглавки, 
-[Cмотри раздел "Заголовок"](#Заголовок)
+## Link to text inside README.md
+If we form a link inside the README.md file, then we should remember that we can only refer to headers,
+[See "Heading" section](#Heading)
 ```
-[Cмотри раздел "Заголовок"](#Заголовок)
+[See "Heading" section](#Heading)
 ```
-А что делать если заголовок состоит из нескольких слов?... Необходимо все пробелы заменить на '-' как раздел про 
-[Горизонтальную линию](#Горизонтальная-линия)
+But what if the title consists of several words?... You need to replace all spaces with '-' as a section about
+[Horizontal line](#Horizontal-line)
 ```
-[Горизонтальную линию](#Горизонтальная-линия)
+[Horizontal line](#Horizontal-line)
 ```
-## 6.2. Ссылка изображения
-Все работает точно также сочетание восклицательного знака + квадратных скобок + круглые скобки
+## 6.2. Image link
+Everything works exactly the same combination of exclamation point + square brackets + parentheses
 ```
-![Не важно](https://avatars.githubusercontent.com/u/57312267?v=4 "подпиши картинку при наведении")
+![Doesn't matter](https://avatars.githubusercontent.com/u/57312267?v=4 "caption image on hover")
 ```
-![Не важно](https://avatars.githubusercontent.com/u/57312267?v=4 "подпиши картинку при наведении")
+![Doesn't matter](https://avatars.githubusercontent.com/u/57312267?v=4 "caption image on hover")
 
-Если Вы предварительно создали папку с изображениями, которые желаете применить в своем README файле, то для 
-отображения таких изображений необходимо указать относительный адрес Вашего файла в репозитории, например у меня в 
-папке media находится изображение с названием super.jfif, для отображения необходимо ввести
+If you have previously created a folder with images that you wish to use in your README file, then for
+displaying such images, you must specify the relative address of your file in the repository, for example, in my
+the media folder contains an image called super.jfif, to display you need to enter
 ```
 ![](./media/super.jfif)
 ```
 ![](./media/super.jfif)
 
-[К оглавлению](#Оглавление)
+[Back to Table of Contents](# Table of Contents)
 ____
-### Полезные ссылки
+### Useful links
 
-https://shields.io/ - Если есть желание добавить шильды, например тех, что находятся в начале этого файла, то 
-переходите на сайт, выбираете шильду, вбиваете как правило имя на гихабе, имя репозитория и копируете код шильды в 
-свой readme-файл.
+https://shields.io/ - If you want to add shields, for example those at the beginning of this file, then
+go to the site, select a shield, usually type in the name on the gihab, the name of the repository and copy the code of the shield into
+your readme file.
 
-https://github.com/BEPb/README/blob/master/emogi.md - Если есть желание украсить свой readmi-файл эмодзи 
-:smiling_imp: ,  :innocent: то просто скопируйте код из таблицы напротив нужного.
+https://github.com/BEPb/README/blob/master/emogi.md - If you want to decorate your readmi file with emoji
+:smiling_imp: , :innocent: then just copy the code from the table opposite the one you need.
 
-### Скрытое меню
+### Hidden menu
 </b></details>
 
 <details>
-<summary>Что нужно сделать что бы получить сворачивающийся текст?</summary><br><b>
+<summary>What do I need to do to get collapsible text?</summary><br><b>
 
-Скопируйте указанный код и вставляйте свои блоки и символы
+Copy the given code and paste your blocks and symbols
 ```
 </b></details>
 <details>
-<summary> Название Вашего скрытого текста </summary><br><b>
+<summary> The name of your hidden text </summary><br><b>
 
-Здесь размещается Вашт скрытый текст
+Here is your hidden text
 </b></details>
 
 ```
