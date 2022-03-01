@@ -110,7 +110,7 @@ Heading 2
 -
 ```
 
-[Back to Table of Contents](# Table of Contents)
+[Back to Table of Contents](#Table-of-Contents)
 ____
 
 ## Text
@@ -118,7 +118,7 @@ ____
 Here the usual text is displayed, without any manipulations.
 
 
-[Back to Table of Contents](# Table of Contents)
+[Back to Table of Contents](#Table-of-Contents)
 ____
 ### 3.2. One line of text
     text on one line
@@ -127,7 +127,7 @@ Add 4 spaces at the beginning of the line and your text will be highlighted in a
 tab, but not always.... the tab character is sometimes indented by 3 or more spaces.
 
 
-[Back to Table of Contents](# Table of Contents)
+[Back to Table of Contents](#Table-of-Contents)
 ____
 ### 3.3. Multiline text
     HERE LIES A BIG STUDENT;
@@ -137,14 +137,14 @@ ____
 
 Add 4 spaces at the beginning of each line and your text will be highlighted in a separate window, as in the example.
 
-[Back to Table of Contents](# Table of Contents)
+[Back to Table of Contents](#Table-of-Contents)
 ____
 ### 3.4. Text selection
 The above examples will not be able to keep the indentation of complex text on each line, for this purpose use in
 three backticks "```", and they must be on separate lines before and after the text, respectively.
 
 ```
-"Strive not for success, but for the values ​​that it gives."
+"Strive not for success, but for the values that it gives."
                                           Albert Einstein
 ```
 If you only use a pair of backticks, then your text will be highlighted, but not indented. Same way
@@ -178,7 +178,7 @@ class PhonenumberAdmin(admin.ModelAdmin): # describe the Directory section of th
 ```
 ____
 
-[Back to Table of Contents](# Table of Contents)
+[Back to Table of Contents](#Table-of-Contents)
 ____
 ### 3.5. Line wrapping
 Perhaps this is not usual and not familiar, but when you press the "Enter" button, your text will still be displayed in one
@@ -187,7 +187,7 @@ line, and in order for your transfer to work, you need to add two spaces at the 
 Or just add an empty string, i.e. press "Enter" 2 times. In this case, the transfer effect will be achieved, but
 line spacing will be larger.
 
-[Back to Table of Contents](# Table of Contents)
+[Back to Table of Contents](#Table-of-Contents)
 ____
 ### 3.6. Italics
 Place text between two characters '*' (asterisks) or '_' (underscores) and it will turn into
@@ -195,7 +195,7 @@ Place text between two characters '*' (asterisks) or '_' (underscores) and it wi
 ```
 *italic text* or _italic text_
 ```
-[Back to Table of Contents](# Table of Contents)
+[Back to Table of Contents](#Table-of-Contents)
 ____
 ### 3.7. Fatty
 Place text between two double '*' (asterisks) or '_' (underscore) characters and it will turn into
@@ -209,7 +209,7 @@ ___Bold Italic___ or ***Bold Italic***
 ___Bold Italic___ or ***Bold Italic***
 ```
 
-[Back to Table of Contents](# Table of Contents)
+[Back to Table of Contents](#Table-of-Contents)
 ____
 ### 3.8. Strikethrough
 Place text between two double '~' characters and it will turn into
@@ -218,7 +218,7 @@ Place text between two double '~' characters and it will turn into
 ~~Strikethrough TEXT~~
 ```
 
-[Back to Table of Contents](# Table of Contents)
+[Back to Table of Contents](#Table-of-Contents)
 ____
 ## Insert tables
 
@@ -234,7 +234,7 @@ simple table
 |Profession| python-developer|
 |Article| About markup in the README|
 
-[Back to Table of Contents](# Table of Contents)
+[Back to Table of Contents](#Table-of-Contents)
 ____
 
 ## Lists
@@ -253,7 +253,7 @@ The numbered list is created like regular line numbering,
 3. third
 4. fourth
 
-[Back to Table of Contents](# Table of Contents)
+[Back to Table of Contents](#Table-of-Contents)
 ____
 ## Links
 ## 6.1. Text hyperlink
@@ -291,7 +291,7 @@ the media folder contains an image called super.jfif, to display you need to ent
 ```
 ![](./media/super.jfif)
 
-[Back to Table of Contents](# Table of Contents)
+[Back to Table of Contents](#Table-of-Contents)
 ____
 ### Useful links
 
