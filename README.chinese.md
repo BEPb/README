@@ -6,7 +6,8 @@
 <p align="left">
 <img src="https://visitor-badge.laobi.icu/badge?page_id=BEPb.README" alt="visitors"/>
 </p>
-Ч其他語言閱讀：[English](README.md), [हिन्दी](README.hindi.md), [中國人](README.chinese.md)
+
+其他語言閱讀：[English](README.md), [हिन्दी](README.hindi.md), [中國人](README.chinese.md)
 
 # 所有關於 README.md 文件標記
 
