@@ -7,7 +7,7 @@
 <img src="https://visitor-badge.laobi.icu/badge?page_id=BEPb.README" alt="visitors"/>
 </p>
 
-अन्य भाषाओं में पढ़ें: [अंग्रेज़ी](README.md), [हिन्दी](README.hindi.md), [中國人](README.chinese.md)
+अन्य भाषाओं में पढ़ें: [अंग्रेज़ी](README.md), [Russian](README.ru.md), [中國人](README.chinese.md)
 
 # README.md फ़ाइल मार्कअप के बारे में सब कुछ
 
