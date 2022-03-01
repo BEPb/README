@@ -67,7 +67,7 @@ ___
 they all display the horizontal line effect
 ____
 
-[Back to Table of Contents](# Table of Contents)
+[Back to Table of Contents](#Table-of-Contents)
 ____
 ## Title
 
